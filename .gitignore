@@ -1,0 +1,17 @@
+# downloaded or built by build.sh
+/pdfcc/
+/fricas0/
+/host/
+/target/
+/build-host/
+/build-target/
+/data/
+*.tgz
+*.tar
+*.mem
+*.pdf
+*.log
+# tools
+__pycache__/
+.ruff_cache/
+node_modules/

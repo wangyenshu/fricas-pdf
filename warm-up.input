@@ -1,0 +1,26 @@
+-- Evaluated before the memory image is taken (toplevel.lisp, pdf-warm-up), so
+-- that the domains these expressions use are already loaded in the PDF.
+1 + 1
+2/3 + 1/4
+2^100
+factorial(30)
+sqrt(2.0)
+numeric(%pi)
+complex(1, 2)^2
+(x + 1)^5
+factor(x^4 - 1)
+gcd(x^2 - 1, x^2 + 2*x + 1)
+partialFraction(1, x^2 - 1)
+eval(x^2 + 1, x = 3)
+D(sin(x)^2*exp(x), x)
+integrate(x^2*sin(x), x)
+integrate(1/(1 + x^2), x)
+limit(sin(x)/x, x = 0)
+series(exp(x), x = 0)
+solve(x^2 - 2 = 0, x)
+solve([x + y = 3, x - y = 1], [x, y])
+simplify(sin(x)^2 + cos(x)^2)
+determinant matrix [[1, 2], [3, 4]]
+inverse matrix [[1, 2], [3, 4]]
+[i^2 for i in 1..10]
+reduce(+, [1, 2, 3])
